@@ -29,57 +29,57 @@ body svg #argentina #a_5_,
 body svg #argentina #g,
 body svg #argentina #football_1_ {
   -webkit-animation-delay: -2s;
-          animation-delay: -2s;
+  animation-delay: -2s;
 }
 
 body svg #argentina #n,
 body svg #argentina #a_3_ {
   -webkit-animation: move_n_a3 5s infinite ease-in-out;
-          animation: move_n_a3 5s infinite ease-in-out;
+  animation: move_n_a3 5s infinite ease-in-out;
 }
 
 body svg #argentina #t {
   -webkit-transform-origin: 38% 46%;
           transform-origin: 38% 46%;
   -webkit-animation: move_t 5s infinite ease-in-out;
-          animation: move_t 5s infinite ease-in-out;
+  animation: move_t 5s infinite ease-in-out;
 }
 
 body svg #argentina .rect {
   -webkit-animation: move_rect 5s infinite ease-in-out;
-          animation: move_rect 5s infinite ease-in-out;
+  animation: move_rect 5s infinite ease-in-out;
 }
 
 body svg #argentina #n_1_ {
   -webkit-animation: move_n1 5s infinite ease-in-out;
-          animation: move_n1 5s infinite ease-in-out;
+  animation: move_n1 5s infinite ease-in-out;
 }
 
 body svg #argentina #r_1_,
 body svg #argentina #a_4_ {
   -webkit-animation: move_r1a4 5s infinite ease-in-out;
-          animation: move_r1a4 5s infinite ease-in-out;
+  animation: move_r1a4 5s infinite ease-in-out;
 }
 
 body svg #argentina #a_5_ {
   -webkit-transform-origin: 50% 50%;
           transform-origin: 50% 50%;
   -webkit-animation: move_a5 5s infinite ease-in-out;
-          animation: move_a5 5s infinite ease-in-out;
+  animation: move_a5 5s infinite ease-in-out;
 }
 
 body svg #argentina #g {
   -webkit-transform-origin: 50% 50%;
           transform-origin: 50% 50%;
   -webkit-animation: move_g 5s infinite ease-in-out;
-          animation: move_g 5s infinite ease-in-out;
+  animation: move_g 5s infinite ease-in-out;
 }
 
 body svg #argentina #football_1_ {
   -webkit-transform-origin: 50% 50%;
           transform-origin: 50% 50%;
   -webkit-animation: move_football 5s infinite ease;
-          animation: move_football 5s infinite ease;
+  animation: move_football 5s infinite ease;
 }
 
 body footer {

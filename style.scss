@@ -28,46 +28,55 @@ body {
             #a_5_,
             #g,
             #football_1_ {
-                animation-delay: -2s;
+                -webkit-animation-delay: -2s;
+                        animation-delay: -2s;
             }
 
             #n,
             #a_3_ {
-                animation: move_n_a3 5s infinite ease-in-out;
+                -webkit-animation: move_n_a3 5s infinite ease-in-out;
+                        animation: move_n_a3 5s infinite ease-in-out;
             }
 
             #t {
                 transform-origin: 38% 46%;
-                animation: move_t 5s infinite ease-in-out;
+                -webkit-animation: move_t 5s infinite ease-in-out;
+                        animation: move_t 5s infinite ease-in-out;
             }
 
             .rect {
-                animation: move_rect 5s infinite ease-in-out;
+                -webkit-animation: move_rect 5s infinite ease-in-out;
+                        animation: move_rect 5s infinite ease-in-out;
             }
 
             #n_1_ {
-                animation: move_n1 5s infinite ease-in-out;
+                -webkit-animation: move_n1 5s infinite ease-in-out;
+                        animation: move_n1 5s infinite ease-in-out;
 
             }
 
             #r_1_,
             #a_4_ {
-                animation: move_r1a4 5s infinite ease-in-out;
+                -webkit-animation: move_r1a4 5s infinite ease-in-out;
+                        animation: move_r1a4 5s infinite ease-in-out;
             }
 
             #a_5_ {
                 transform-origin: 50% 50%;
-                animation: move_a5 5s infinite ease-in-out;
+                -webkit-animation: move_a5 5s infinite ease-in-out;
+                        animation: move_a5 5s infinite ease-in-out;
             }
 
             #g {
                 transform-origin: 50% 50%;
-                animation: move_g 5s infinite ease-in-out;
+                -webkit-animation: move_g 5s infinite ease-in-out;
+                        animation: move_g 5s infinite ease-in-out;
             }
 
             #football_1_ {
                 transform-origin: 50% 50%;
-                animation: move_football 5s infinite ease;
+                -webkit-animation: move_football 5s infinite ease;
+                        animation: move_football 5s infinite ease;
 
             }
         }
@@ -91,6 +100,24 @@ body {
     }
 }
 
+@-webkit-keyframes move_t {
+    45% {
+        transform-origin: 45% 50.5%;
+        transform: rotateZ(-180deg);
+    }
+
+    55% {
+        transform-origin: 45% 50.5%;
+        transform: rotateZ(-180deg);
+    }
+
+    90% {
+        transform-origin: unset;
+        transform: unset;
+
+    }
+}
+
 @keyframes move_t {
     45% {
         transform-origin: 45% 50.5%;
@@ -109,6 +136,21 @@ body {
     }
 }
 
+@-webkit-keyframes move_n1 {
+    45% {
+        transform: translateX(-19%);
+    }
+
+    55% {
+        transform: translateX(-19%);
+    }
+
+    90% {
+        transform: unset;
+
+    }
+}
+
 @keyframes move_n1 {
     45% {
         transform: translateX(-19%);
@@ -116,6 +158,21 @@ body {
 
     55% {
         transform: translateX(-19%);
+    }
+
+    90% {
+        transform: unset;
+
+    }
+}
+
+@-webkit-keyframes move_r1a4 {
+    45% {
+        transform: translateX(4.5%);
+    }
+
+    55% {
+        transform: translateX(4.5%);
     }
 
     90% {
@@ -139,6 +196,23 @@ body {
     }
 }
 
+@-webkit-keyframes move_a5 {
+    45% {
+        transform-origin: 46.5% 50.5%;
+        transform: rotateZ(-180deg);
+    }
+
+    55% {
+        transform-origin: 46.5% 50.5%;
+        transform: rotateZ(-180deg);
+    }
+
+    90% {
+        transform-origin: unset;
+        transform: unset;
+    }
+}
+
 @keyframes move_a5 {
     45% {
         transform-origin: 46.5% 50.5%;
@@ -156,6 +230,20 @@ body {
     }
 }
 
+@-webkit-keyframes move_g {
+    45% {
+        transform: rotate3d(.75, 0, 0, 180deg) translateX(10%) translateY(-10px);
+    }
+
+    55% {
+        transform: rotate3d(.75, 0, 0, 180deg) translateX(10%) translateY(-10px);
+    }
+
+    90% {
+        transform: unset;
+    }
+}
+
 @keyframes move_g {
     45% {
         transform: rotate3d(.75, 0, 0, 180deg) translateX(10%) translateY(-10px);
@@ -166,6 +254,53 @@ body {
     }
 
     90% {
+        transform: unset;
+    }
+}
+
+@-webkit-keyframes move_football {
+    5% {
+        transform: translateY(3%);
+        transition-timing-function: ease-in;
+    }
+
+    20% {
+        transform-origin: 58.75% 42%;
+        transform: translateY(-15%) scale(1, 1);
+        transition-timing-function: ease-out;
+    }
+
+    45% {
+        transform-origin: 58.75% 42%;
+        transform: scale(3, 3) translateY(0);
+        transition-timing-function: ease-in;
+    }
+
+    50% {
+        transform-origin: 58.75% 42%;
+        transition-timing-function: ease;
+        transform: scale(3, 3) translateY(-4%);
+    }
+
+    55% {
+        transform-origin: 58.75% 42%;
+        transition-timing-function: ease-out;
+        transform: scale(3, 3) translateY(0);
+    }
+
+    80% {
+        transform-origin: 58.75% 42%;
+        transition-timing-function: ease-in;
+        transform: translateY(-15%) scale(1, 1);
+    }
+
+    95% {
+        transition-timing-function: ease-in;
+        transform: translateY(5%);
+    }
+
+    100% {
+        transform-origin: unset;
         transform: unset;
     }
 }
@@ -217,6 +352,20 @@ body {
     }
 }
 
+@-webkit-keyframes move_n_a3 {
+    45% {
+        transform: translateX(1%);
+    }
+
+    55% {
+        transform: translateX(1%);
+    }
+
+    90% {
+        transform: unset;
+    }
+}
+
 @keyframes move_n_a3 {
     45% {
         transform: translateX(1%);
@@ -228,6 +377,20 @@ body {
 
     90% {
         transform: unset;
+    }
+}
+
+@-webkit-keyframes move_rect {
+    15% {
+        opacity: 0;
+    }
+
+    85% {
+        opacity: 0;
+    }
+
+    90% {
+        opacity: unset;
     }
 }
 
