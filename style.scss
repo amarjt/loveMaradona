@@ -166,15 +166,15 @@ body {
 }
 
 @keyframes move_football {
-    10% {
-        transform: translateY(5%);
+    5% {
+        transform: translateY(3%);
     }
 
     20% {
         transform: translateY(-15%) scale(1, 1);
     }
 
-    40% {
+    45% {
         transform-origin: 58.75% 42%;
         transform: scale(3, 3) translateY(0);
         transition-timing-function: ease-out;
@@ -185,7 +185,7 @@ body {
         transform: scale(3, 3) translateY(-1.25%);
     }
 
-    60% {
+    55% {
         transform-origin: 58.75% 42%;
         transform: scale(3, 3) translateY(0);
     }
@@ -194,8 +194,8 @@ body {
         transform: translateY(-15%) scale(1, 1);
     }
 
-    90% {
-        transform: translateY(5%);
+    95% {
+        transform: translateY(3%);
     }
 
     99% {
