@@ -1,0 +1,239 @@
+body {
+    background: #3498DB;
+    height: 100vh;
+
+    svg {
+        width: 100%;
+        height: 100%;
+
+        .st1 {
+            fill: #FFFFFF;
+        }
+
+        .st2 {
+            fill: none;
+            stroke: #000000;
+            stroke-width: 0.3549;
+            stroke-miterlimit: 10;
+        }
+
+        #argentina {
+
+            #n,
+            #a_3_,
+            #t,
+            .rect #n_1_,
+            #r_1_,
+            #a_4_,
+            #a_5_,
+            #g,
+            #football_1_ {
+                animation-delay: -2s;
+            }
+
+            #n,
+            #a_3_ {
+                animation: move_n_a3 5s infinite ease-in-out;
+            }
+
+            #t {
+                transform-origin: 38% 46%;
+                animation: move_t 5s infinite ease-in-out;
+            }
+
+            .rect {
+                animation: move_rect 5s infinite ease-in-out;
+            }
+
+            #n_1_ {
+                animation: move_n1 5s infinite ease-in-out;
+
+            }
+
+            #r_1_,
+            #a_4_ {
+                animation: move_r1a4 5s infinite ease-in-out;
+            }
+
+            #a_5_ {
+                transform-origin: 50% 50%;
+                animation: move_a5 5s infinite ease-in-out;
+            }
+
+            #g {
+                transform-origin: 50% 50%;
+                animation: move_g 5s infinite ease-in-out;
+            }
+
+            #football_1_ {
+                transform-origin: 50% 50%;
+                animation: move_football 5s infinite ease;
+
+            }
+        }
+    }
+
+    footer{
+        position: absolute;
+        left: 50%;
+        bottom: 1rem;
+        transform: translateX(-50%);
+        z-index: 1;
+
+        .love{
+            color: red;
+        }
+    }
+}
+
+@keyframes move_t {
+    45% {
+        transform-origin: 45% 50.5%;
+        transform: rotateZ(-180deg);
+    }
+
+    55% {
+        transform-origin: 45% 50.5%;
+        transform: rotateZ(-180deg);
+    }
+
+    90% {
+        transform-origin: unset;
+        transform: unset;
+
+    }
+}
+
+@keyframes move_n1 {
+    45% {
+        transform: translateX(-19%);
+    }
+
+    55% {
+        transform: translateX(-19%);
+    }
+
+    90% {
+        transform: unset;
+
+    }
+}
+
+@keyframes move_r1a4 {
+    45% {
+        transform: translateX(4.5%);
+    }
+
+    55% {
+        transform: translateX(4.5%);
+    }
+
+    90% {
+        transform: unset;
+
+    }
+}
+
+@keyframes move_a5 {
+    45% {
+        transform-origin: 46.5% 50.5%;
+        transform: rotateZ(-180deg);
+    }
+
+    55% {
+        transform-origin: 46.5% 50.5%;
+        transform: rotateZ(-180deg);
+    }
+
+    90% {
+        transform-origin: unset;
+        transform: unset;
+    }
+}
+
+@keyframes move_g {
+    45% {
+        transform: rotate3d(.75, 0, 0, 180deg) translateX(10%) translateY(-10px);
+    }
+
+    55% {
+        transform: rotate3d(.75, 0, 0, 180deg) translateX(10%) translateY(-10px);
+    }
+
+    90% {
+        transform: unset;
+    }
+}
+
+@keyframes move_football {
+    10% {
+        transform: translateY(5%);
+    }
+
+    20% {
+        transform: translateY(-15%) scale(1, 1);
+    }
+
+    40% {
+        transform-origin: 58.75% 42%;
+        transform: scale(3, 3) translateY(0);
+        transition-timing-function: ease-out;
+    }
+
+    50% {
+        transform-origin: 58.75% 42%;
+        transform: scale(3, 3) translateY(-1.25%);
+    }
+
+    60% {
+        transform-origin: 58.75% 42%;
+        transform: scale(3, 3) translateY(0);
+    }
+
+    80% {
+        transform: translateY(-15%) scale(1, 1);
+    }
+
+    90% {
+        transform: translateY(5%);
+    }
+
+    90% {
+        transform-origin: unset;
+        transform: unset;
+    }
+}
+
+@keyframes move_n_a3 {
+    45% {
+        transform: translateX(1%);
+    }
+
+    55% {
+        transform: translateX(1%);
+    }
+
+    90% {
+        transform: unset;
+    }
+}
+
+@keyframes move_rect {
+    15% {
+        opacity: 0;
+    }
+
+    85% {
+        opacity: 0;
+    }
+
+    90% {
+        opacity: unset;
+    }
+}
+
+@media (max-width: 768px) {
+    svg {
+        transform: scale(2, 2);
+    }
+}
