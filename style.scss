@@ -73,15 +73,19 @@ body {
         }
     }
 
-    footer{
+    footer {
         position: absolute;
         left: 50%;
         bottom: 1rem;
         transform: translateX(-50%);
         z-index: 1;
 
-        .love{
-            color: red;
+        p {
+            margin-bottom: 0;
+
+            .love {
+                color: red;
+            }
         }
     }
 }

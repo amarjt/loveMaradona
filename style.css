@@ -91,7 +91,11 @@ body footer {
   z-index: 1;
 }
 
-body footer .love {
+body footer p {
+  margin-bottom: 0;
+}
+
+body footer p .love {
   color: red;
 }
 
