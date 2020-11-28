@@ -261,12 +261,12 @@ body footer p .love {
 
 @keyframes move_g {
   45% {
-    -webkit-transform: rotate3d(0.75, 0, 0, 180deg) translateX(10%) translateY(-10px);
-            transform: rotate3d(0.75, 0, 0, 180deg) translateX(10%) translateY(-10px);
+    -webkit-transform: rotate3d(0.75, 0, 0, 180deg) translateX(9%) translateY(-10px);
+            transform: rotate3d(0.75, 0, 0, 180deg) translateX(9%) translateY(-10px);
   }
   55% {
-    -webkit-transform: rotate3d(0.75, 0, 0, 180deg) translateX(10%) translateY(-10px);
-            transform: rotate3d(0.75, 0, 0, 180deg) translateX(10%) translateY(-10px);
+    -webkit-transform: rotate3d(0.75, 0, 0, 180deg) translateX(9%) translateY(-10px);
+            transform: rotate3d(0.75, 0, 0, 180deg) translateX(9%) translateY(-10px);
   }
   90% {
     -webkit-transform: unset;
@@ -282,40 +282,40 @@ body footer p .love {
             transition-timing-function: ease-in;
   }
   20% {
-    -webkit-transform-origin: 58.75% 42%;
-            transform-origin: 58.75% 42%;
+    -webkit-transform-origin: 58.9% 43%;
+            transform-origin: 58.9% 43%;
     -webkit-transform: translateY(-15%) scale(1, 1);
             transform: translateY(-15%) scale(1, 1);
     -webkit-transition-timing-function: ease-out;
             transition-timing-function: ease-out;
   }
   45% {
-    -webkit-transform-origin: 58.75% 42%;
-            transform-origin: 58.75% 42%;
-    -webkit-transform: scale(3, 3) translateY(0);
-            transform: scale(3, 3) translateY(0);
+    -webkit-transform-origin: 58.9% 43%;
+            transform-origin: 58.9% 43%;
+    -webkit-transform: scale(3.5, 3.5) translateY(0);
+            transform: scale(3.5, 3.5) translateY(0);
     -webkit-transition-timing-function: ease-in;
             transition-timing-function: ease-in;
   }
   50% {
-    -webkit-transform-origin: 58.75% 42%;
-            transform-origin: 58.75% 42%;
+    -webkit-transform-origin: 58.9% 43%;
+            transform-origin: 58.9% 43%;
     -webkit-transition-timing-function: ease;
             transition-timing-function: ease;
-    -webkit-transform: scale(3, 3) translateY(-4%);
-            transform: scale(3, 3) translateY(-4%);
+    -webkit-transform: scale(3.5, 3.5) translateY(-4%);
+            transform: scale(3.5, 3.5) translateY(-4%);
   }
   55% {
-    -webkit-transform-origin: 58.75% 42%;
-            transform-origin: 58.75% 42%;
+    -webkit-transform-origin: 58.9% 43%;
+            transform-origin: 58.9% 43%;
     -webkit-transition-timing-function: ease-out;
             transition-timing-function: ease-out;
-    -webkit-transform: scale(3, 3) translateY(0);
-            transform: scale(3, 3) translateY(0);
+    -webkit-transform: scale(3.5, 3.5) translateY(0);
+            transform: scale(3.5, 3.5) translateY(0);
   }
   80% {
-    -webkit-transform-origin: 58.75% 42%;
-            transform-origin: 58.75% 42%;
+    -webkit-transform-origin: 58.9% 43%;
+            transform-origin: 58.9% 43%;
     -webkit-transition-timing-function: ease-in;
             transition-timing-function: ease-in;
     -webkit-transform: translateY(-15%) scale(1, 1);
@@ -343,40 +343,40 @@ body footer p .love {
             transition-timing-function: ease-in;
   }
   20% {
-    -webkit-transform-origin: 58.75% 42%;
-            transform-origin: 58.75% 42%;
+    -webkit-transform-origin: 58.9% 43%;
+            transform-origin: 58.9% 43%;
     -webkit-transform: translateY(-15%) scale(1, 1);
             transform: translateY(-15%) scale(1, 1);
     -webkit-transition-timing-function: ease-out;
             transition-timing-function: ease-out;
   }
   45% {
-    -webkit-transform-origin: 58.75% 42%;
-            transform-origin: 58.75% 42%;
-    -webkit-transform: scale(3, 3) translateY(0);
-            transform: scale(3, 3) translateY(0);
+    -webkit-transform-origin: 58.9% 43%;
+            transform-origin: 58.9% 43%;
+    -webkit-transform: scale(3.5, 3.5) translateY(0);
+            transform: scale(3.5, 3.5) translateY(0);
     -webkit-transition-timing-function: ease-in;
             transition-timing-function: ease-in;
   }
   50% {
-    -webkit-transform-origin: 58.75% 42%;
-            transform-origin: 58.75% 42%;
+    -webkit-transform-origin: 58.9% 43%;
+            transform-origin: 58.9% 43%;
     -webkit-transition-timing-function: ease;
             transition-timing-function: ease;
-    -webkit-transform: scale(3, 3) translateY(-4%);
-            transform: scale(3, 3) translateY(-4%);
+    -webkit-transform: scale(3.5, 3.5) translateY(-4%);
+            transform: scale(3.5, 3.5) translateY(-4%);
   }
   55% {
-    -webkit-transform-origin: 58.75% 42%;
-            transform-origin: 58.75% 42%;
+    -webkit-transform-origin: 58.9% 43%;
+            transform-origin: 58.9% 43%;
     -webkit-transition-timing-function: ease-out;
             transition-timing-function: ease-out;
-    -webkit-transform: scale(3, 3) translateY(0);
-            transform: scale(3, 3) translateY(0);
+    -webkit-transform: scale(3.5, 3.5) translateY(0);
+            transform: scale(3.5, 3.5) translateY(0);
   }
   80% {
-    -webkit-transform-origin: 58.75% 42%;
-            transform-origin: 58.75% 42%;
+    -webkit-transform-origin: 58.9% 43%;
+            transform-origin: 58.9% 43%;
     -webkit-transition-timing-function: ease-in;
             transition-timing-function: ease-in;
     -webkit-transform: translateY(-15%) scale(1, 1);

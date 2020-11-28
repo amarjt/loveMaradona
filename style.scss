@@ -246,61 +246,14 @@ body {
 
 @keyframes move_g {
     45% {
-        transform: rotate3d(.75, 0, 0, 180deg) translateX(10%) translateY(-10px);
+        transform: rotate3d(.75, 0, 0, 180deg) translateX(9%) translateY(-10px);
     }
 
     55% {
-        transform: rotate3d(.75, 0, 0, 180deg) translateX(10%) translateY(-10px);
+        transform: rotate3d(.75, 0, 0, 180deg) translateX(9%) translateY(-10px);
     }
 
     90% {
-        transform: unset;
-    }
-}
-
-@-webkit-keyframes move_football {
-    5% {
-        transform: translateY(3%);
-        transition-timing-function: ease-in;
-    }
-
-    20% {
-        transform-origin: 58.75% 42%;
-        transform: translateY(-15%) scale(1, 1);
-        transition-timing-function: ease-out;
-    }
-
-    45% {
-        transform-origin: 58.75% 42%;
-        transform: scale(3, 3) translateY(0);
-        transition-timing-function: ease-in;
-    }
-
-    50% {
-        transform-origin: 58.75% 42%;
-        transition-timing-function: ease;
-        transform: scale(3, 3) translateY(-4%);
-    }
-
-    55% {
-        transform-origin: 58.75% 42%;
-        transition-timing-function: ease-out;
-        transform: scale(3, 3) translateY(0);
-    }
-
-    80% {
-        transform-origin: 58.75% 42%;
-        transition-timing-function: ease-in;
-        transform: translateY(-15%) scale(1, 1);
-    }
-
-    95% {
-        transition-timing-function: ease-in;
-        transform: translateY(5%);
-    }
-
-    100% {
-        transform-origin: unset;
         transform: unset;
     }
 }
@@ -312,31 +265,31 @@ body {
     }
 
     20% {
-        transform-origin: 58.75% 42%;
+        transform-origin: 58.9% 43%;
         transform: translateY(-15%) scale(1, 1);
         transition-timing-function: ease-out;
     }
 
     45% {
-        transform-origin: 58.75% 42%;
-        transform: scale(3, 3) translateY(0);
+        transform-origin: 58.9% 43%;
+        transform: scale(3.5, 3.5) translateY(0);
         transition-timing-function: ease-in;
     }
 
     50% {
-        transform-origin: 58.75% 42%;
+        transform-origin: 58.9% 43%;
         transition-timing-function: ease;
-        transform: scale(3, 3) translateY(-4%);
+        transform: scale(3.5, 3.5) translateY(-4%);
     }
 
     55% {
-        transform-origin: 58.75% 42%;
+        transform-origin: 58.9% 43%;
         transition-timing-function: ease-out;
-        transform: scale(3, 3) translateY(0);
+        transform: scale(3.5, 3.5) translateY(0);
     }
 
     80% {
-        transform-origin: 58.75% 42%;
+        transform-origin: 58.9% 43%;
         transition-timing-function: ease-in;
         transform: translateY(-15%) scale(1, 1);
     }
