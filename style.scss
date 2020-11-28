@@ -168,11 +168,13 @@ body {
 @keyframes move_football {
     5% {
         transform: translateY(3%);
+        transition-timing-function: ease-in;
     }
 
     20% {
+        transform-origin: 58.75% 42%;
         transform: translateY(-15%) scale(1, 1);
-        transition-timing-function: ease-in;
+        transition-timing-function: ease-out;
     }
 
     45% {
@@ -183,8 +185,8 @@ body {
 
     50% {
         transform-origin: 58.75% 42%;
-        transition-timing-function: ease-in-out;
-        transform: scale(3, 3) translateY(-1.25%);
+        transition-timing-function: ease;
+        transform: scale(3, 3) translateY(-4%);
     }
 
     55% {
@@ -194,15 +196,17 @@ body {
     }
 
     80% {
-        transition-timing-function: ease-out;
+        transform-origin: 58.75% 42%;
+        transition-timing-function: ease-in;
         transform: translateY(-15%) scale(1, 1);
     }
 
     95% {
+        transition-timing-function: ease-in;
         transform: translateY(5%);
     }
 
-    99% {
+    100% {
         transform-origin: unset;
         transform: unset;
     }

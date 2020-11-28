@@ -273,12 +273,16 @@ body footer .love {
   5% {
     -webkit-transform: translateY(3%);
             transform: translateY(3%);
-  }
-  20% {
-    -webkit-transform: translateY(-15%) scale(1, 1);
-            transform: translateY(-15%) scale(1, 1);
     -webkit-transition-timing-function: ease-in;
             transition-timing-function: ease-in;
+  }
+  20% {
+    -webkit-transform-origin: 58.75% 42%;
+            transform-origin: 58.75% 42%;
+    -webkit-transform: translateY(-15%) scale(1, 1);
+            transform: translateY(-15%) scale(1, 1);
+    -webkit-transition-timing-function: ease-out;
+            transition-timing-function: ease-out;
   }
   45% {
     -webkit-transform-origin: 58.75% 42%;
@@ -291,10 +295,10 @@ body footer .love {
   50% {
     -webkit-transform-origin: 58.75% 42%;
             transform-origin: 58.75% 42%;
-    -webkit-transition-timing-function: ease-in-out;
-            transition-timing-function: ease-in-out;
-    -webkit-transform: scale(3, 3) translateY(-1.25%);
-            transform: scale(3, 3) translateY(-1.25%);
+    -webkit-transition-timing-function: ease;
+            transition-timing-function: ease;
+    -webkit-transform: scale(3, 3) translateY(-4%);
+            transform: scale(3, 3) translateY(-4%);
   }
   55% {
     -webkit-transform-origin: 58.75% 42%;
@@ -305,16 +309,20 @@ body footer .love {
             transform: scale(3, 3) translateY(0);
   }
   80% {
-    -webkit-transition-timing-function: ease-out;
-            transition-timing-function: ease-out;
+    -webkit-transform-origin: 58.75% 42%;
+            transform-origin: 58.75% 42%;
+    -webkit-transition-timing-function: ease-in;
+            transition-timing-function: ease-in;
     -webkit-transform: translateY(-15%) scale(1, 1);
             transform: translateY(-15%) scale(1, 1);
   }
   95% {
+    -webkit-transition-timing-function: ease-in;
+            transition-timing-function: ease-in;
     -webkit-transform: translateY(5%);
             transform: translateY(5%);
   }
-  99% {
+  100% {
     -webkit-transform-origin: unset;
             transform-origin: unset;
     -webkit-transform: unset;
@@ -326,12 +334,16 @@ body footer .love {
   5% {
     -webkit-transform: translateY(3%);
             transform: translateY(3%);
-  }
-  20% {
-    -webkit-transform: translateY(-15%) scale(1, 1);
-            transform: translateY(-15%) scale(1, 1);
     -webkit-transition-timing-function: ease-in;
             transition-timing-function: ease-in;
+  }
+  20% {
+    -webkit-transform-origin: 58.75% 42%;
+            transform-origin: 58.75% 42%;
+    -webkit-transform: translateY(-15%) scale(1, 1);
+            transform: translateY(-15%) scale(1, 1);
+    -webkit-transition-timing-function: ease-out;
+            transition-timing-function: ease-out;
   }
   45% {
     -webkit-transform-origin: 58.75% 42%;
@@ -344,10 +356,10 @@ body footer .love {
   50% {
     -webkit-transform-origin: 58.75% 42%;
             transform-origin: 58.75% 42%;
-    -webkit-transition-timing-function: ease-in-out;
-            transition-timing-function: ease-in-out;
-    -webkit-transform: scale(3, 3) translateY(-1.25%);
-            transform: scale(3, 3) translateY(-1.25%);
+    -webkit-transition-timing-function: ease;
+            transition-timing-function: ease;
+    -webkit-transform: scale(3, 3) translateY(-4%);
+            transform: scale(3, 3) translateY(-4%);
   }
   55% {
     -webkit-transform-origin: 58.75% 42%;
@@ -358,16 +370,20 @@ body footer .love {
             transform: scale(3, 3) translateY(0);
   }
   80% {
-    -webkit-transition-timing-function: ease-out;
-            transition-timing-function: ease-out;
+    -webkit-transform-origin: 58.75% 42%;
+            transform-origin: 58.75% 42%;
+    -webkit-transition-timing-function: ease-in;
+            transition-timing-function: ease-in;
     -webkit-transform: translateY(-15%) scale(1, 1);
             transform: translateY(-15%) scale(1, 1);
   }
   95% {
+    -webkit-transition-timing-function: ease-in;
+            transition-timing-function: ease-in;
     -webkit-transform: translateY(5%);
             transform: translateY(5%);
   }
-  99% {
+  100% {
     -webkit-transform-origin: unset;
             transform-origin: unset;
     -webkit-transform: unset;
