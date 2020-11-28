@@ -258,6 +258,53 @@ body {
     }
 }
 
+@-webkit-keyframes move_football {
+    5% {
+        transform: translateY(3%);
+        transition-timing-function: ease-in;
+    }
+
+    20% {
+        transform-origin: 58.9% 43%;
+        transform: translateY(-15%) scale(1, 1);
+        transition-timing-function: ease-out;
+    }
+
+    45% {
+        transform-origin: 58.9% 43%;
+        transform: scale(3.5, 3.5) translateY(0);
+        transition-timing-function: ease-in;
+    }
+
+    50% {
+        transform-origin: 58.9% 43%;
+        transition-timing-function: ease;
+        transform: scale(3.5, 3.5) translateY(-4%);
+    }
+
+    55% {
+        transform-origin: 58.9% 43%;
+        transition-timing-function: ease-out;
+        transform: scale(3.5, 3.5) translateY(0);
+    }
+
+    80% {
+        transform-origin: 58.9% 43%;
+        transition-timing-function: ease-in;
+        transform: translateY(-15%) scale(1, 1);
+    }
+
+    95% {
+        transition-timing-function: ease-in;
+        transform: translateY(5%);
+    }
+
+    100% {
+        transform-origin: unset;
+        transform: unset;
+    }
+}
+
 @keyframes move_football {
     5% {
         transform: translateY(3%);
