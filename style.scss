@@ -172,30 +172,34 @@ body {
 
     20% {
         transform: translateY(-15%) scale(1, 1);
+        transition-timing-function: ease-in;
     }
 
     45% {
         transform-origin: 58.75% 42%;
         transform: scale(3, 3) translateY(0);
-        transition-timing-function: ease-out;
+        transition-timing-function: ease-in;
     }
 
     50% {
         transform-origin: 58.75% 42%;
+        transition-timing-function: ease-in-out;
         transform: scale(3, 3) translateY(-1.25%);
     }
 
     55% {
         transform-origin: 58.75% 42%;
+        transition-timing-function: ease-out;
         transform: scale(3, 3) translateY(0);
     }
 
     80% {
+        transition-timing-function: ease-out;
         transform: translateY(-15%) scale(1, 1);
     }
 
     95% {
-        transform: translateY(3%);
+        transform: translateY(5%);
     }
 
     99% {
